@@ -1,0 +1,6 @@
+<div #chart id="chart"></div>
+<section class="range-slider">
+  <span class="rangeValues"></span>Min : {{minRange}}
+  <input value="0" min="0" max="100" step="10" type="range" [(ngModel)]="minRange">
+  <input value="10" min="10" max="100" step="10" type="range" [(ngModel)]="maxRange"> Max {{maxRange}}
+</section>
